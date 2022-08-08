@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="res/non.css">
+    <link rel="stylesheet" media="(max-width:700px)" href="res/phone.css">
+
+    <title>product</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"><img src="img/logo-white.png" alt=""></div>
+
+            <nav>
+                <ul class="menu-items">
+                 
+                    <li class="menut-item"> <a href="home.html"> Home</a></li>
+                    <li class="menut-item"><a href="register.html">Register</a></li>
+                    <li class="menut-item"><a href="product.html">products</a></li>
+                    <li class="menut-item"><a href="cart.html">cart</a></li>
+                    <li class="menut-item"><a href="loin.html">log in/log out</a> </li>
+                </ul>
+            </nav>
+            <div class="menu-btn">
+                <div class="menu-btn_burger"></div>
+            </div>
+        </header>
+        <div class="sub-container">
+            <form action="">
+                <h2>Registration </h2>
+                <hr>
+                <div class="form-detail">
+                    <p> <span> Name: </span> <input type="text" placeholder="enter your name" name="name" id="name"></p>
+                    <p > <span> phone number: </span> <input type="tel" name="phone" placeholder="enter your phone no." id="phone"></p>
+
+                    <p> <span> country: </span>
+                        <select name="" id="">
+                            <option value="">Select your country </option>
+                            <option value="india">India</option>
+                            <option value="China">China</option>
+                            <option value="Korean">Korean</option>
+                            <option value="usa">usa</option>
+                        </select>
+
+                    </p>
+                    <p> <span> Email Id: </span> <input type="email" name="email" id="email" placeholder="enter your email"></p>
+                    <p> <span> password: </span> <input type="password" name="password" id="password" placeholder="enter your password" ></p>
+                    <p> <span> conform password: </span> <input type="password" name="password2" id="password2" placeholder="conform your password"></p>
+
+                </div>
+                <p>
+                     <p class="gend">  Gender:</p>  
+                    <label for="mail">Mail</label>
+                    <input type="radio" name="gender" id="mail">
+                    <label for="femail">Femail</label>
+                    <input type="radio" name="gender" id="femail">
+
+                </p>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+<script src="res/roa.js"></script>
+</body>
+</html>
